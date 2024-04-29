@@ -10,7 +10,7 @@ function ProjectItem({ name, about, technologies }) {
           technologies.map((technology, index) => {
             return <span key={index}>{technology}</span>
           })
-        };
+        }
       </div>
     </div>
   );

@@ -8,7 +8,7 @@ function NavBar() {
       links.map((link, index) => {
         return <a key={index} href={`#${link}`}>{link}</a>
       })
-    };
+    }
   </nav>;
 }
 
